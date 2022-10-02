@@ -1,0 +1,35 @@
+
+@media (max-width:1170px){
+    #links a span {
+        display: none;
+    }
+}
+@media (max-width:991px){
+    #links a span {
+        display: none;
+    }
+}
+@media (max-width:767px){
+    .home .content{
+        letter-spacing: 0;
+    }
+    .home #links{
+        right: -30px;
+        line-height: 0;
+    }
+    #links a span {
+        display: none;
+    }
+}
+@media (max-width:590px){
+    .home #links { 
+        display: none;
+    }
+    .about .content {
+        padding: 10px 0 10px 0;
+    }
+
+    .container .box { 
+        margin: 0;
+    }
+}
